@@ -1,9 +1,9 @@
 # [Rocketseat](https://www.rocketseat.com.br/)
-Estudos e projetos desenvolvidos a partir da plataforma 
+Projetos desenvolvidos a partir da plataforma 
 
 ## 📖 Sobre o Repositório
 
-Um repositório que contém todos os arquivos de estudos salvos, entre eles, projetos, desafios, maratonas explorer, nlw's, anotações sobre cada coisa aprendida e etc.
+Um repositório que contém todos os projetos, desafios, maratonas explorer, nlw's.
 
 ## 👨‍💻 Acesso aos Projetos
 > NLW
