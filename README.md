@@ -1,5 +1,5 @@
 # [Rocketseat](https://www.rocketseat.com.br/)
-Projetos desenvolvidos a partir da plataforma 
+Projetos desenvolvidos a partir da plataforma da [Rocketseat](https://www.rocketseat.com.br/)
 
 ## 📖 Sobre o Repositório
 
@@ -43,12 +43,6 @@ Desafios HTML
 - HTML
 - CSS
 - JavaScript
-- Responsividade
-- Hardware
-- Software
-- Redes
-- Segurança de dados
-- Protocólos
 
 ## 📞 Contato
 Perfil na Rocketseat: [deivisondelmiro](https://app.rocketseat.com.br/me/deivisondelmiro)
