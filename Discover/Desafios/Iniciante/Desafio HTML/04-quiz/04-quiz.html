@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt_Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: rgba(194, 194, 194, 0.205);
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        main {
+            background: rgba(194, 194, 194, 0.466);
+            border-radius: 5px;
+            padding: 8px;
+            margin: auto;
+        }
+
+        button {
+            display: block;
+            background: rgb(243, 243, 243);
+            font-size: 16px;
+            font-weight: bolder;
+            margin: auto;
+            padding: 8px;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform .5s;
+        }
+
+        button:hover {
+            background: rgba(255, 255, 255, 0.925);
+            color: rgb(15, 15, 15);
+            transform: transition;
+        }
+
+        @media (max-width: 1100px) {
+            header, main {
+                width: 80%;
+            }
+        }
+
+        @media (max-width: 550px) {
+            header, main {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perguntas sobre front-end</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <fieldset>
+                <ol>
+                    <li>
+                        <h3>O que significa a sigla HTML?</h3>
+                        <div>
+                            <input type="radio" name="pergunta-1" id="pergunta-1-a" value="A">
+                            <label for="pergunta-1-a">A) HTML - Hyper Text Manage Language</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-1" id="pergunta-1-b" value="B">
+                            <label for="pergunta-1-b">B) HTML - Hi Text Markup Language</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-1" id="pergunta-1-c" value="C">
+                            <label for="pergunta-1-c">C) HTML - High Text Manage Language</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-1" id="pergunta-1-d" value="D">
+                            <label for="pergunta-1-d">D) HTML - Hyper Text Markup Language</label>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>O que significa a sigla CSS?</h3>
+                        <div>
+                            <input type="radio" name="pergunta-2" id="pergunta-2-a" value="A">
+                            <label for="pergunta-2-a">A) CSS - Cascading Style Sheets</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-2" id="pergunta-2-b" value="B">
+                            <label for="pergunta-2-b">B) CSS - Cascading Style Sheetes</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-2" id="pergunta-2-c" value="C">
+                            <label for="pergunta-2-c">C) CSS - Cascadin Style Sheets</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-2" id="pergunta-2-d" value="D">
+                            <label for="pergunta-2-d">D) CSS - Cascanding Style Sheets</label>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>O que significa a sigla JS?</h3>
+                        <div>
+                            <input type="radio" name="pergunta-3" id="pergunta-3-a" value="A">
+                            <label for="pergunta-3-a">A) JS - JavaScripit</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-3" id="pergunta-3-b" value="B">
+                            <label for="pergunta-3-b">B) JS - JavaScript</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-3" id="pergunta-3-c" value="C">
+                            <label for="pergunta-3-c">C) JS - JavaScripti</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pergunta-3" id="pergunta-3-d" value="D">
+                            <label for="pergunta-3-d">D) JS - JavaScripiti</label>
+                        </div>
+                    </li>
+                </ol>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

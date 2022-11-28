@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            border-style: n--
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: rgb(223, 223, 223);
+        }
+        
+        form {
+            background: rgba(167, 162, 162, 0.568);
+            width: 80%;
+            margin: 5% auto 0;
+            padding: 8px;
+            text-align: center;
+            border-style: none;
+            border-radius: 8px;
+        }
+
+        
+        fieldset {
+            border: none;
+        }
+
+        legend {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        select {
+            font-size: 16px;
+        }
+
+        input {
+            font-size: 16px;
+            padding: 3px;
+            border-radius: 3px;
+            border: 1px solid black;
+        }
+
+        textarea {
+            font-size: 16px;
+        }
+
+        button {
+            padding: 5px 15px 5px 15px;
+            font-size: 16px;
+            font-weight: 600;
+            transform: .5s;
+            border-radius: 5px;
+            border-style: none;
+        }
+
+        button:hover {
+            background-color:rgba(245, 245, 245, 0.555);
+            transform: transition;
+        }
+    </style>
+</head>
+<body>
+    <form action="post">
+        <fieldset>
+            <legend>Entre em contato</legend>
+
+            <br><label for="assunto">Assunto:</label>
+            <select name="assunto" id="assuntoContato">
+                <option value="suporte">Suporte</option>
+                <option value="sugestão">Sugestão</option>
+                <option value="reclamação">Reclamação</option>
+            </select><br>
+
+            <br><label for="nomeCompleto">Nome completo:</label><br>
+            <input type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Seu nome" size="20" required><br>
+
+            <br><label for="email">E-mail:</label><br>
+            <input type="email" name="inputEmail" id="inputEmail" placeholder="seuemail@email.com" size="20" required><br>
+
+            <br><label for="mensagem">Mensagem:</label><br>
+            <textarea name="mensagem" id="inputMensagem" cols="20" rows="8"></textarea><br>
+
+            <br><input type="checkbox" name="aceitarNovidades" id="yesAceitoNovidades">
+            <label for="aceitarNovidades">Aceito receber novidades por e-mail</label><br>
+            <br><button>Enviar</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>

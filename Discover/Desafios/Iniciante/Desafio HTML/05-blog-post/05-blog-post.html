@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            background:rgba(249, 249, 249, 0.473);
+            font-family: 'Poppins', sans-serif;
+            width: 60%;
+            margin: auto;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        header {
+            height: 15vh;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 12px;
+            transition: .3s;
+        }
+
+        header h1:hover {
+            transform: scale(1.05);
+        }
+
+        header nav a {
+            margin-right: 50px;
+            padding: 8px;
+            transition: transform .5s;
+        }
+
+        header nav a:hover {
+            background: rgb(214, 214, 214);
+            padding: 8px;
+            border-radius: 2px;
+        }
+
+        article {
+            text-align: center;
+            padding: 8px;
+        }
+
+        article h2 {
+            margin: 8px 0;
+        }
+
+        article > img {
+            width: 250px;
+            height: 250px;
+            margin-top: 8px;
+            border-radius: 3px;
+        }
+
+        article > cite {
+            display: block;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+        article > cite > a:hover {
+            color: rgba(0, 0, 0, 0.466);
+        }
+
+        article > p {
+            text-align: justify;
+            text-indent: 35px;
+            line-height: 35px;
+            padding: 5px 25px;
+        }
+
+        article > hr#ultimoHRArticle {
+            margin-top: 20px;
+        }
+
+        aside > div#infoPost {
+            display: flex;
+            padding: 5px 8px;
+            justify-content: space-between;
+        }
+
+        aside > div#infoPost > p > a:hover, footer > p > a:hover {
+            color: gray;
+        }
+
+        aside > div#sobreAutor {
+            display: flex;
+            padding: 15px;
+        }
+
+        aside > div#sobreAutor > div#borderImg > img {
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.466), white, rgba(0, 0, 0, 0.726));
+            width: 150px;
+            height: 150px;
+            position: center top;
+            padding: 4px;
+            border-radius: 50%;
+            transition: transform .5s;
+        }
+
+        aside > div#sobreAutor > div#borderImg > img:hover {
+            transform: scale(1.1) rotate(-0.05turn);
+        }
+
+        aside > div#sobreAutor > p {
+            text-indent: 35px;
+            text-align: justify;
+            margin-left: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 8px;
+            background: rgb(249, 249, 249);
+        }
+
+        footer > p > a:hover {
+            color: gray;
+        }
+
+        @media (max-width: 1100px) {
+            body {
+                width: 80%;
+            }
+        }
+
+        @media (max-width: 700px) {
+            body {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 550px) {
+            body {
+                width: 90%;
+            }
+
+            aside > div#sobreAutor {
+                display: block;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 350px) {
+            body {
+                width: 96%;
+            }
+
+            article > img {
+            width: 90%;
+        }
+
+            aside > div#sobreAutor {
+                display: block;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="#" target="_self">My blog</a></h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#" target="_blank">Sobre</a>
+            <a href="#" target="_blank">Contato</a>
+        </nav>
+    </header>
+
+    <article>
+        <hr>
+
+        <h2>Post ilustrativo</h2>
+
+        <hr>
+
+        <img src="https://source.unsplash.com/random" alt="Imagem carregada aleatóriamente do Unsplash">
+
+        <br>
+
+        <cite>
+            Fonte: Imagem carregada aleatóriamente do <a href="https://source.unsplash.com/random" target="_blank">Unsplash</a>
+        </cite>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptatibus aliquam, quidem, culpa animi quisquam veritatis magni Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus rerum neque placeat tenetur molestias id et saepe sint aspernatur veniam debitis exercitationem eligendi tempore illum similique nihil, praesentium delectus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptatibus aliquam, quidem, culpa animi quisquam veritatis magni Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus rerum neque placeat tenetur molestias id et saepe sint aspernatur veniam debitis exercitationem eligendi tempore illum similique nihil, praesentium delectus?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat voluptatibus cumque facilis ad porro cum laudantium quia quod ratione Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus perferendis libero sed hic vero, dignissimos neque debitis corporis magnam aliquid quia, iste quas cumque! Molestiae tenetur praesentium provident hic?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptatibus aliquam, quidem, culpa animi quisquam veritatis magni Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus rerum neque placeat tenetur molestias id et saepe sint aspernatur veniam debitis exercitationem eligendi tempore illum similique nihil, praesentium delectus?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi dicta ipsam maiores Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam beatae nisi quia nihil ex ipsum. Autem eum, dolore non cupiditate ab necessitatibus debitis odit minima, architecto veniam odio pariatur saepe?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptatibus aliquam, quidem, culpa animi quisquam veritatis magni Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus rerum neque placeat tenetur molestias id et saepe sint aspernatur veniam debitis exercitationem eligendi tempore illum similique nihil, praesentium delectus?</p>
+
+        <hr id="ultimoHRArticle">
+
+        <aside>
+            <div id="infoPost">
+                <p id="data"><strong>Data da postagem:</strong> 20/09/2022</p>
+                <p id="porAutor">Por: <a href="https://www.linkedin.com/in/deivisondelmiro/">Deivison Delmiro</a></p>
+            </div>
+
+            <hr>
+
+            <div id="sobreAutor">
+                <div id="borderImg"><img src="https://github.com/deivisondelmiro.png" alt="Imagem de Deivison Delmiro"></div>
+                <p>
+                    <em>Sou o Deivison Delmiro, um jovem que é entusiasta por tecnologia, e acha interessante os níveis que ela pode proporcionar, e suas variáveis. Já venho há algum tempo estudando alguns conceitos de programação, por achar essa área interessante, e o me aventurando na programção web.</em>
+                </p>
+            </div>
+        </aside>
+    </article>
+
+    <footer>
+        <p>Feito por <a href="https://www.linkedin.com/in/deivisondelmiro/" target="_blank">Deivison Delmiro</a> 🚀</p>
+    </footer>
+</body>
+</html>

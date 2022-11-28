@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #08C05E;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+a {
+    text-decoration: none;
+}
+
+div#background-black {
+    height: 100vh;
+    width: 729px;
+    background: var(--body-bg-color);
+}
+
+body {
+    background-image: url('imagens/background-image.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 376px;
+    background-position-y: 0px;
+}
+
+header img {
+    width: 389px;
+    height: 94px;
+    margin: 50px 0 92px 30px;
+}
+
+/* Informations */
+
+main section#informacoes {
+    margin: 0 37px 50px 36px;
+}
+
+main section#informacoes h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: var(--title-color);
+    margin-bottom: 9px;
+}
+
+main section#informacoes p {
+    font-family: 'Spartan', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+main section#informacoes p:nth-child(2) {
+    font-weight: 700;
+}
+
+main section#informacoes p:nth-child(3) {
+    font-weight: 400;
+    color: var(--form-color);
+}
+
+/* Form */
+
+main section#form {
+    margin-top: 49.56px;
+    margin-left: 35px;
+}
+
+main section#form fieldset {
+    border: none;
+}
+
+main section#form legend {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    color: var(--form-color);
+}
+
+main section#form #elementSideLeft {
+    width: 5px;
+    height: 48px;
+    position: absolute;
+    background: var(--title-color);
+}
+
+main section#form input {
+    width: 798px;
+    height: 48px;
+    background: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--form-color);
+    padding-left: 10px;
+    border: none;
+}
+
+main section#form input:focus {
+    outline: 0;
+}
+
+main section#form button#buttonSubmit {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 429px;
+    left: 786px;
+    background: var(--bg-button-color);
+    border: none;
+    cursor: pointer;
+}
+
+/* Deixe-me ler primeiro */
+
+main section#deixe-me-ler p {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    color: var(--bg-button-color);
+    margin-top: 50px;
+    margin-left: 36px;
+}
+
+main section#deixe-me-ler p img {
+    position: absolute;
+    left: 203px;
+    top: 524px;
+}
