@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+	--dark: #292C35;
+	--light: #F1F1F1;
+	--label: #111;
+	--text: rgb(128, 128, 128);
+	--text-hover: rgb(88, 88, 88);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+  position: relative;
+}
+
+.container-light {
+  background: var(--light);
+}
+
+.container-dark {
+  background: var(--dark);
+}
+
+.background-toggle {
+  width: 235px;
+  height: 102px;
+  background-color: var(--label);
+  border-radius: 50px;
+  background-image: url('../images/moon.svg'), url('../images/sun.svg');
+  background-repeat: no-repeat;
+  background-position: left, right;
+  padding: 8px;
+}
+
+.background-toggle .button-toggle {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.button-toggle .button {
+  width: 86px;
+  height: 86px;
+  background: var(--light);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button-active {
+  transform: translateX(134px);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 15px 0;
+}
+
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8rem;
+  color: var(--text);
+  text-align: center;
+  margin: 0 20px;
+}
+
+footer p a {
+  transition: .3s;
+}
+
+footer p a:hover {
+  color: var(--text-hover);
+}
