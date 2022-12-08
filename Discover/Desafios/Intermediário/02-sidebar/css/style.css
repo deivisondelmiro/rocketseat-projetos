@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
+
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+	--light-grey: #dce4e3;
+  --text-color: #084236;
+}
+
+body {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  background: var(--body-bg-color);
+}
+
+a, span {
+  display: inline-block;
+}
+
+span, h2 {
+  display: none;
+}
+
+.header {
+  width: 78px;
+  height: 100vh;
+  background: var(--green);
+  position: relative;
+  transition: .5s;
+}
+
+.logo, .navegacao {
+  padding: 0 1.25rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-items {
+  display: none;
+}
+
+.logo-menu {
+  margin: 1.625rem 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 2.125rem;
+  position: absolute;
+  left: 14px;
+}
+
+.buscar {
+  width: 50px;
+  height: 50px;
+  background: var(--light-green);
+  padding: 0.8125rem 0;
+  border-radius: 8px;
+  transition: .5s;
+  position: relative;
+}
+
+.input-buscar {
+  display: none;
+  width: 80%;
+  height: 100%;
+  font-size: 1rem;
+  color: var(--text-color);
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+}
+
+.menu li a {
+  display: flex;
+  align-content: center;
+}
+
+.icon-items {
+  padding: 0 0.8125rem;
+}
+
+.profile {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--light-green);
+  padding: 0.5rem 0.875rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.photo-profile {
+  display: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+}
+
+.span-show, .name-vet, .veterinaria {
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.name-vet, .veterinaria {
+  line-height: 15px;
+  padding: 0 2.8125rem 0 0.5625rem;
+}
+
+.log-out {
+  width: 24px;
+  height: 24px;
+}
+
+/* ACTIVES */
+
+.activeHeader {
+  width: 250px;
+  align-items: flex-start;
+}
+
+.activeLogo {
+  justify-content: space-between;
+}
+
+.activeLogoItems {
+  display: inherit;
+}
+
+.activeMenu {
+  align-items: baseline;
+}
+
+.activeBuscar {
+  width: 222px;
+}
+
+.activeInputBuscar {
+  display: inherit;
+}
+
+.span-show {
+  display: inherit;
+}
+
+.activePhotoProfile {
+  display: initial;
+}
+
+.activeNameVet {
+  display: inherit;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+.activeVeterinaria {
+  font-size: 0.75rem
+}
+
+.titulo {
+  font-size: 1.5625rem;
+  font-weight: 500;
+  padding: 1.125rem;
+  color: var(--text-color);
+}
+
+@media (max-width: 450px) {
+  .activeHeader {
+    width: 250px;
+    align-items: flex-start;
+  }
+  .activeBuscar {
+    width: 200px;
+  }
+
+  .input-buscar {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .activeBuscar {
+    width: 180px;
+  }
+
+  .name-vet, .veterinaria {
+    line-height: 15px;
+    padding: 0 0.2125rem 0 0.5625rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .activeBuscar {
+    width: 160px;
+  }
+}
+
+@media (max-width: 370px) {
+  .activeBuscar {
+    width: 120px;
+  }
+}
+
+@media (max-width: 340px) {
+  .span-show {
+    font-size: .7rem;
+  }
+
+  .input-buscar {
+    font-size: .7rem;
+  }
+
+  .profile {
+    height: 120px;
+    flex-direction: column;
+    text-align: center;
+  }
+}

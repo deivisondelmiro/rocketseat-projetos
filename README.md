@@ -26,8 +26,6 @@ Um repositório que contém todos os projetos, desafios, maratonas explorer, nlw
 
 [Receita de Waffle Clássico](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Iniciante/P%C3%A1gina%20de%20Receita/index.html)
 
-Desafios HTML
-
 [Glossary](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Iniciante/Desafio%20HTML/01-glossary/01-glossary.html)
 
 [Formulário de Contato](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Iniciante/Desafio%20HTML/02-formulario-de-contato/02-formulario-de-contato.html)
@@ -37,6 +35,10 @@ Desafios HTML
 [Quiz](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Iniciante/Desafio%20HTML/04-quiz/04-quiz.html)
 
 [Blog Post](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Iniciante/Desafio%20HTML/05-blog-post/05-blog-post.html)
+
+[Theme Switcher](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Intermedi%C3%A1rio/01-theme-switcher/index.html)
+
+[Sidebar](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Intermedi%C3%A1rio/02-sidebar/index.html)
 
 ## 🛠️ Tecnologias/Assuntos Estudados
 

@@ -1,0 +1,30 @@
+const logo = document.querySelector('.logo')
+const buttonMenu = document.querySelector('.logo-menu')
+const header = document.querySelector('.header')
+const menu = document.querySelector('.menu')
+const inputBuscar = document.querySelector('.input-buscar')
+const iconBuscar = document.querySelector('#icon-buscar')
+const buscar = document.querySelector('.buscar')
+const logoItems = document.querySelector('.logo-items')
+const span = document.querySelectorAll('span')
+const imgProfile = document.querySelector('.photo-profile')
+const nameVet = document.querySelector('.name-vet')
+const veterinaria = document.querySelector('.veterinaria')
+
+function activeMenu() {
+  logo.classList.toggle('activeLogo')
+  header.classList.toggle('activeHeader')
+  menu.classList.toggle('activeMenu')
+  inputBuscar.classList.toggle('activeInputBuscar')
+  iconBuscar.classList.toggle('activeIconBuscar')
+  buscar.classList.toggle('activeBuscar')
+  logoItems.classList.toggle('activeLogoItems')
+  imgProfile.classList.toggle('activePhotoProfile')
+  nameVet.classList.toggle('activeNameVet')
+  veterinaria.classList.toggle('activeVeterinaria')
+  span.forEach(function(index) {
+    index.classList.toggle('span-show')
+  })
+}
+
+buttonMenu.addEventListener('click', activeMenu)
