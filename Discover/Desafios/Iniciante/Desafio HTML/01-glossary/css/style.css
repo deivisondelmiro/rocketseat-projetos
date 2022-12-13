@@ -1,0 +1,112 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+
+:root {
+  --bg-principal: #4A565C;
+  --bg-item-main: #B2CDDB;
+  --title-color: #38444b;
+  --text-dd-color: rgba(12, 12, 12, 0.884);
+  --text-footer-color: #8A9FAB;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  background: var(--bg-principal);
+  position: relative;
+}
+
+.main {
+  margin: 0 20px;
+  padding: 20px 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background: var(--bg-item-main);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.title, dt {
+  color: var(--title-color);
+}
+
+dt, dd {
+  margin-bottom: 10px;
+}
+
+.definicao-lista dt {
+  cursor: pointer;
+}
+
+.definicao-lista dt::after {
+  content: '⤵';
+  margin-left: 5px;
+}
+
+.definicao-lista dt.ativo {
+  margin-bottom: 5px;
+}
+
+.definicao-lista dt.ativo::after {
+  content: '⤴';
+}
+
+.definicao-lista dd {
+  display: none;
+  color: var(--text-dd-color);
+}
+
+.definicao-lista dd.ativo {
+  display: block;
+  animation: showItems .5s forwards;
+}
+
+a {
+  color:rgb(0, 0, 0);
+  transform: .8s;
+}
+
+a:hover {
+  color: rgb(27, 27, 27);
+  transition: transform;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+
+footer p {
+  font-size: .9rem;
+  text-align: center;
+  margin: 0 15px;
+}
+
+footer p, footer a {
+  color: var(--text-footer-color);
+}
+
+@keyframes showItems {
+  from {
+    opacity: 0;
+    max-height: 0px;
+  }
+  to {
+    opacity: 1;
+    max-height: 100px;
+  }
+}
