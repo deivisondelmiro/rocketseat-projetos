@@ -39,7 +39,7 @@ a:hover {
 div#primeiraDiv {
     background: var(--background-receita);
     width: 70%;
-    margin: 50px auto;
+    margin: 3.125rem auto;
     border-radius: 10px;
 }
 
@@ -56,7 +56,7 @@ h1, h2 {
     text-transform: uppercase;
     text-align: center;
 
-    padding: 10px 0 8px;
+    padding: 0.625rem 0 0.5rem;
     border-radius: 5px;
 }
 
@@ -64,7 +64,7 @@ h1 {
     background: none;
     font-size: 1.75rem;
     color: black;
-    padding: 65px 0 20px;
+    padding: 4.0625rem 0 1.25rem;
 }
 
 h1 > a {
@@ -99,15 +99,15 @@ figcaption {
     text-align: right;
     line-height: 1px;
 
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
 }
 
 ul, ol {
-    margin-left: 25px;
+    margin-left: 1.5625rem;
 }
 
 p {
-    padding: 0 0 25px 0;
+    padding: 0 0 1.5625rem 0;
 }
 
 footer {
@@ -130,8 +130,8 @@ footer > a:hover {
 
 div#ultimaDiv {
     width: 70%;
-    line-height: 20px;
-    margin: 0px auto 20px;
+    line-height: 1.25rem;
+    margin: 0px auto 1.25rem;
 }
 
 @media (max-width: 600px) {
@@ -144,7 +144,7 @@ div#ultimaDiv {
     }
 
     h1 {
-        padding: 20px 0 20px;
+        padding: 1.25rem 0 1.25rem;
 
     }
 }
