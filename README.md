@@ -36,6 +36,8 @@ Um repositório que contém todos os projetos, desafios, maratonas explorer, nlw
 
 [Blog Post](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Iniciante/Desafio%20HTML/05-blog-post/05-blog-post.html)
 
+[RocketNews](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Iniciante/rocketnews/)
+
 [Theme Switcher](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Intermedi%C3%A1rio/01-theme-switcher/index.html)
 
 [Sidebar](https://deivisondelmiro.github.io/rocketseat-projetos/Discover/Desafios/Intermedi%C3%A1rio/02-sidebar/index.html)
