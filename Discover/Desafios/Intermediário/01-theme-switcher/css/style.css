@@ -40,7 +40,7 @@
   background-image: url('../images/moon.svg'), url('../images/sun.svg');
   background-repeat: no-repeat;
   background-position: left, right;
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .background-toggle .button-toggle {
@@ -66,7 +66,7 @@
 footer {
   position: absolute;
   bottom: 0;
-  padding: 15px 0;
+  padding: 0.9375rem 0;
 }
 
 footer p {
@@ -74,7 +74,7 @@ footer p {
   font-size: .8rem;
   color: var(--text);
   text-align: center;
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 footer p a {

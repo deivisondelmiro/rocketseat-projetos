@@ -202,7 +202,7 @@ span, h2 {
   }
 
   .name-vet, .veterinaria {
-    line-height: 15px;
+    line-height: 0,9375rem;
     padding: 0 0.2125rem 0 0.5625rem;
   }
 }
