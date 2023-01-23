@@ -1,9 +1,8 @@
 # [Rocketseat](https://www.rocketseat.com.br/)
-Projetos desenvolvidos a partir da plataforma da [Rocketseat](https://www.rocketseat.com.br/)
 
 ## 📖 Sobre o Repositório
 
-Um repositório que contém todos os projetos, desafios, maratonas explorer, nlw's.
+Um repositório que contém alguns dos projetos, desafios, maratona explorer, nlw's, disponibilizados e desenvolvidos a partir da plataforma da [Rocketseat](https://www.rocketseat.com.br/)
 
 ## 👨‍💻 Acesso aos Projetos
 > NLW
